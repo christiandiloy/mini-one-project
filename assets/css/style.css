@@ -1,9 +1,14 @@
+.custom-font-header {
+    font-size: 3rem;
+    font-family: 'Bakbak One', cursive;
+}
+
 .album-custom-padding {
-    padding: 5%;
+    padding: 3%;
 }
 
 .footer-custom-padding {
-   margin-left: 20%;
+    margin-left: 20%;
 }
 
 .image-container {
