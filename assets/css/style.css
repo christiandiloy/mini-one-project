@@ -42,7 +42,7 @@
 }
 
 .image-container:hover {
-    background-color: rgba(0, 0, 0, 0.466);
+    background-color: rgba(0, 0, 0, 0.301);
     background-image: url("/assets/images/location.svg");
     background-size: 100px 100px;
     background-repeat: no-repeat;
@@ -75,7 +75,7 @@
 }
 
 .image-container-2:hover {
-    background-color: rgba(0, 0, 0, 0.466);
+    background-color: rgba(0, 0, 0, 0.301);
     background-image: url("/assets/images/home.svg");
     background-size: 100px 100px;
     background-repeat: no-repeat;
@@ -108,7 +108,7 @@
 }
 
 .image-container-3:hover {
-    background-color: rgba(0, 0, 0, 0.466);
+    background-color: rgba(0, 0, 0, 0.301);
     background-image: url("/assets/images/luggage.svg");
     background-size: 100px 100px;
     background-repeat: no-repeat;
