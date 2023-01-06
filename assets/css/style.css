@@ -1,3 +1,8 @@
+.custom-padding-navbar {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 .custom-font-header {
     font-size: 3rem;
     font-family: 'Bakbak One', cursive;
