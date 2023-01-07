@@ -1,3 +1,16 @@
+.custom-bg-color {
+    background-color: #040E27;
+}
+
+.custom-text-style-nav {
+    color: #ffffffde !important;
+    font-family: 'Bakbak One', cursive;
+}
+
+.custom-text-style {
+    font-family: 'Bakbak One', cursive;
+}
+
 .custom-padding-navbar {
     padding-left: 30px;
     padding-right: 30px;
@@ -212,4 +225,8 @@
     background-size: 100px 100px;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.footer-list-title {
+    color: rgb(255, 74, 82);
 }
