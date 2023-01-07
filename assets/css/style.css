@@ -16,20 +16,20 @@
     margin-left: 20%;
 }
 
-.image-container {
+.destination {
     position: relative;
 }
 
-.image-container img {
+.destination img {
     opacity: 1;
     transition: opacity 0.5s;
 }
 
-.image-container:hover img {
+.destination:hover img {
     opacity: 0.5;
 }
 
-.image-container .icon {
+.destination .icon {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -37,11 +37,11 @@
     display: none;
 }
 
-.image-container:hover .icon {
+.destination:hover .icon {
     display: block;
 }
 
-.image-container:hover {
+.destination:hover {
     background-color: rgba(0, 0, 0, 0.301);
     background-image: url("/assets/images/location.svg");
     background-size: 100px 100px;
@@ -49,20 +49,20 @@
     background-position: center;
 }
 
-.image-container-2 {
+.lfiestyle {
     position: relative;
 }
 
-.image-container-2 img {
+.lfiestyle img {
     opacity: 1;
     transition: opacity 0.5s;
 }
 
-.image-container-2:hover img {
+.lfiestyle:hover img {
     opacity: 0.5;
 }
 
-.image-container-2 .icon {
+.lfiestyle .icon {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -70,11 +70,11 @@
     display: none;
 }
 
-.image-container-2:hover .icon {
+.lfiestyle:hover .icon {
     display: block;
 }
 
-.image-container-2:hover {
+.lfiestyle:hover {
     background-color: rgba(0, 0, 0, 0.301);
     background-image: url("/assets/images/home.svg");
     background-size: 100px 100px;
@@ -82,20 +82,20 @@
     background-position: center;
 }
 
-.image-container-3 {
+.resources {
     position: relative;
 }
 
-.image-container-3 img {
+.resources img {
     opacity: 1;
     transition: opacity 0.5s;
 }
 
-.image-container-3:hover img {
+.resources:hover img {
     opacity: 0.5;
 }
 
-.image-container-3 .icon {
+.resources .icon {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -103,13 +103,112 @@
     display: none;
 }
 
-.image-container-3:hover .icon {
+.resources:hover .icon {
     display: block;
 }
 
-.image-container-3:hover {
+.resources:hover {
     background-color: rgba(0, 0, 0, 0.301);
     background-image: url("/assets/images/luggage.svg");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.prem-member {
+    position: relative;
+}
+
+.prem-member img {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.prem-member:hover img {
+    opacity: 0.5;
+}
+
+.prem-member .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.prem-member:hover .icon {
+    display: block;
+}
+
+.prem-member:hover {
+    background-color: rgba(0, 0, 0, 0.301);
+    background-image: url("/assets/images/unlock.svg");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.coaching {
+    position: relative;
+}
+
+.coaching img {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.coaching:hover img {
+    opacity: 0.5;
+}
+
+.coaching .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.coaching:hover .icon {
+    display: block;
+}
+
+.coaching:hover {
+    background-color: rgba(0, 0, 0, 0.301);
+    background-image: url("/assets/images/chat-bubbles.svg");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.guide {
+    position: relative;
+}
+
+.guide img {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.guide:hover img {
+    opacity: 0.5;
+}
+
+.guide .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.guide:hover .icon {
+    display: block;
+}
+
+.guide:hover {
+    background-color: rgba(0, 0, 0, 0.301);
+    background-image: url("/assets/images/map.svg");
     background-size: 100px 100px;
     background-repeat: no-repeat;
     background-position: center;
