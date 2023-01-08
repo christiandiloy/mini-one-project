@@ -7,7 +7,7 @@
 }
 
 .custom-text-style-nav {
-    color: #ffffffde !important;
+    color: #ffffffde;
     font-size: 18px;
     font-family: 'Bakbak One', cursive;
 }
@@ -283,4 +283,14 @@
 
 .travel-bg::before {
     opacity: .6;
+}
+
+a:hover {
+    font-size: 140%;
+    text-decoration: underline;
+    color: solid white;
+}
+
+.active {
+    color: rgb(255, 74, 83) !important;
 }
