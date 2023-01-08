@@ -18,6 +18,7 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
@@ -26,6 +27,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
         integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
         crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -34,7 +36,7 @@
             <a class="navbar-brand" href="#">
                 <img class="branded-text" src="assets/images/header-logo.png" alt="logo" width="140" height="80">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
+            <button class="navbar-toggler navbar-toggler-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
                 aria-controls="offcanvasNavbar2">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -74,18 +76,24 @@
         <div class="container-fluid album-custom-padding">
             <div class="row row-cols-1 row-cols-md-3 g-3">
                 <div class="col">
-                    <div class="card shadow-sm destination">
-                        <img src="assets/images/destinations-where-to-go.webp" alt="">
+                    <div data-aos="zoom-in">
+                        <div class="card shadow-sm destination">
+                            <img src="assets/images/destinations-where-to-go.webp" alt="">
+                        </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card shadow-sm lfiestyle">
-                        <img src="assets/images/lifestyle.webp" alt="">
+                    <div data-aos="zoom-in">
+                        <div class="card shadow-sm lfiestyle">
+                            <img src="assets/images/lifestyle.webp" alt="">
+                        </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card shadow-sm resources">
-                        <img src="assets/images/resources.webp" alt="">
+                    <div data-aos="zoom-in">
+                        <div class="card shadow-sm resources">
+                            <img src="assets/images/resources.webp" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -98,42 +106,48 @@
         <div class="container-fluid album-custom-padding">
             <div class="row row-cols-1 row-cols-md-3 g-3 justify-content-between">
                 <div class="col">
-                    <div class="card shadow-sm prem-member">
-                        <img src="assets/images/members-area.webp" alt="">
-                    </div>
-                    <div class="card-body pt-3">
-                        <div class="card-header bg-transparent">
-                            <h5 class="card-title mx-auto text-center max-w-md custom-text-style">PREMIUM MEMBERSHIP SITE</h5>
+                    <div data-aos="zoom-in">
+                        <div class="card shadow-sm prem-member">
+                            <img src="assets/images/members-area.webp" alt="">
                         </div>
+                        <div class="card-body pt-3">
+                            <div class="card-header bg-transparent">
+                                <h5 class="card-title mx-auto text-center max-w-md custom-text-style">PREMIUM MEMBERSHIP SITE</h5>
+                            </div>
                         <p class="card-text text-center mb-3">If you think our main site is jam-packed with detailed
                             information, wait until you see the premium content and exclusive videos about Thailand only
                             available in our membership area.</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card shadow-sm coaching">
-                        <img src="assets/images/coaching.webp" alt="">
-                    </div>
-                    <div class="card-body pt-3">
-                        <div class="card-header bg-transparent">
-                            <h5 class="card-title mx-auto text-center max-w-md custom-text-style">THAILAND COACHING SESSIONS</h5>
+                    <div data-aos="zoom-in">
+                        <div class="card shadow-sm coaching">
+                            <img src="assets/images/coaching.webp" alt="">
                         </div>
+                        <div class="card-body pt-3">
+                            <div class="card-header bg-transparent">
+                                <h5 class="card-title mx-auto text-center max-w-md custom-text-style">THAILAND COACHING SESSIONS</h5>
+                            </div>
                         <p class="card-text text-center mb-3">We share our best time and money saving tips and well as
                             practical advice to help you have smooth and worry-free a experience moving to and living in
                             Thailand. You can ask us anything!</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card shadow-sm guide">
-                        <img src="assets/images/itineraries.webp" alt="">
-                    </div>
-                    <div class="card-body pt-3">
-                        <div class="card-header d-flex justify-content-center bg-transparent">
-                            <h5 class="card-title mx-auto text-center max-w-md custom-text-style">THAILAND GUIDE BOOKS</h5>
+                    <div data-aos="zoom-in">
+                        <div class="card shadow-sm guide">
+                            <img src="assets/images/itineraries.webp" alt="">
                         </div>
+                        <div class="card-body pt-3">
+                            <div class="card-header d-flex justify-content-center bg-transparent">
+                                <h5 class="card-title mx-auto text-center max-w-md custom-text-style">THAILAND GUIDE BOOKS</h5>
+                            </div>
                         <p class="card-text text-center mb-3">Now offering ultimate guides to the best cities and
                             islands across Thailand, in four unique styles. Each 7-day itinerary is packed full of the
                             best food to try, hotels to stay at, and top things to do and see!</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -166,6 +180,9 @@
             </div>
         </div>
     </footer>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
