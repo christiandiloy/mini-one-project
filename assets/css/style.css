@@ -4,6 +4,7 @@
 
 .custom-text-style-nav {
     color: #ffffffde !important;
+    font-size: 18px;
     font-family: 'Bakbak One', cursive;
 }
 
@@ -12,8 +13,8 @@
 }
 
 .custom-padding-navbar {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .custom-font-header {
