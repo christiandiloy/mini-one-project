@@ -1,7 +1,6 @@
-:color {
-    $accent-color:rgb(255, 74, 82);
-}
-
+/* body {
+    background-color: #040E27;
+} */
 .custom-bg-color {
     background-color: #040E27;
 }
@@ -69,20 +68,20 @@
     background-position: center;
 }
 
-.lfiestyle {
+.lifestyle {
     position: relative;
 }
 
-.lfiestyle img {
+.lifestyle img {
     opacity: 1;
     transition: opacity 0.5s;
 }
 
-.lfiestyle:hover img {
+.lifestyle:hover img {
     opacity: 0.5;
 }
 
-.lfiestyle .icon {
+.lifestyle .icon {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -90,11 +89,11 @@
     display: none;
 }
 
-.lfiestyle:hover .icon {
+.lifestyle:hover .icon {
     display: block;
 }
 
-.lfiestyle:hover {
+.lifestyle:hover {
     background-color: rgba(0, 0, 0, 0.301);
     background-image: url("/assets/images/home.svg");
     background-size: 100px 100px;
@@ -278,7 +277,7 @@
 }
 
 .explore-bg::before {
-    opacity: .5;
+    opacity: .6;
 }
 
 .travel-bg::before {
