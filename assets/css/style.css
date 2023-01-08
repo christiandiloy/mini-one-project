@@ -1,6 +1,7 @@
-/* body {
-    background-color: #040E27;
-} */
+body {
+    overflow-x: hidden !important;
+}
+
 .custom-bg-color {
     background-color: #040E27;
 }
@@ -268,7 +269,7 @@
 .overlay::before {
     position: absolute;
     content: "";
-    background-color: #291302d0;
+    background-color: #292523d0;
     top: 0;
     left: 0;
     width: 100%;
@@ -277,7 +278,7 @@
 }
 
 .explore-bg::before {
-    opacity: .6;
+    opacity: .7;
 }
 
 .travel-bg::before {
