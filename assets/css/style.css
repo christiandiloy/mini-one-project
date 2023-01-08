@@ -1,3 +1,7 @@
+:color {
+    $accent-color:rgb(255, 74, 82);
+}
+
 .custom-bg-color {
     background-color: #040E27;
 }
@@ -20,6 +24,8 @@
 .custom-font-header {
     font-size: 3rem;
     font-family: 'Bakbak One', cursive;
+    color: rgb(255, 74, 83);
+    opacity: 1 !important;
 }
 
 .album-custom-padding {
@@ -230,4 +236,51 @@
 
 .footer-list-title {
     color: rgb(255, 74, 82);
+}
+
+.explore-bg {
+    background-image: url('/assets/images/grand-palace.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 67px 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.travel-bg {
+    background-image: url('/assets/images/travel.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 67px 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+
+
+.overlay {
+    position: relative;
+    z-index: 0;
+}
+
+.overlay::before {
+    position: absolute;
+    content: "";
+    background-color: #291302d0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.explore-bg::before {
+    opacity: .5;
+}
+
+.travel-bg::before {
+    opacity: .6;
 }
