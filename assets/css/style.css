@@ -1,22 +1,28 @@
+:root {
+    --accent-color: rgb(255, 74, 83);
+    --header-footer-bg: #040E27;
+    --custom-font: 'Bakbak One', cursive;
+}
+
 body {
     overflow-x: hidden !important;
 }
 
 .custom-bg-color {
-    background-color: #040E27;
+    background-color: var(--header-footer-bg);
 }
 
 .custom-text-style-nav {
     color: #ffffffde;
     font-size: 20px;
-    font-family: 'Bakbak One', cursive;
+    font-family: var(--custom-font);
 }
 
 .offcanvas-title {
-    color: rgb(255, 74, 83);
+    color: var(--accent-color);
 }
 .custom-text-style {
-    font-family: 'Bakbak One', cursive;
+    font-family: var(--custom-font);
 }
 
 .custom-padding-navbar {
@@ -26,8 +32,8 @@ body {
 
 .custom-font-header {
     font-size: 3rem;
-    font-family: 'Bakbak One', cursive;
-    color: rgb(255, 74, 83);
+    font-family: var(--custom-font);
+    color: var(--accent-color);
     opacity: 1 !important;
 }
 
@@ -238,7 +244,7 @@ body {
 }
 
 .footer-list-title {
-    color: rgb(255, 74, 82);
+    color: var(--accent-color);
 }
 
 .explore-bg {
@@ -289,7 +295,7 @@ body {
 }
 
 .active {
-    color: rgb(255, 74, 83) !important;
+    color: var(--accent-color) !important;
 }
 
 /*!
@@ -335,7 +341,7 @@ body {
     position: absolute;
     font-size: 80px;
     font-family: "Satisfy", serif;
-    color: rgb(255, 74, 83) !important;
+    color: var(--accent-color) !important;
     bottom: 0;
     top: 0;
     left: 0;
