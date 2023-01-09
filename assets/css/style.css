@@ -396,3 +396,24 @@ body {
     transform: scale(1.1);
     transition: 1s ease;
 }
+
+/*Guide Books page*/
+.btn-primary {
+    background-color: var(--header-footer-bg);
+}
+
+.btn-primary:hover {
+    background-color: var(--accent-color);
+}
+
+.col-8 {
+    border-right: 1px solid rgb(218, 218, 218);
+}
+
+.card-header .my-0 {
+    color: white;
+}
+
+p > a {
+    font-weight: bold;
+}
