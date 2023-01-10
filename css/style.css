@@ -267,9 +267,6 @@ body {
     margin-right: 0;
 }
 
-
-
-
 .overlay {
     position: relative;
     z-index: 0;
@@ -327,6 +324,34 @@ body {
     color: white;
 }
 
+
+#hero-home {
+    width: 100%;
+    height: 90vh;
+    background: url('../images/homepage-header-image.jpg') center;
+    background-size: cover;
+    position: relative;
+}
+
+#hero-home .home-hero-container {
+    position: absolute;
+    font-size: 80px;
+    font-family: "Satisfy", serif;
+    color: var(--accent-color) !important;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 15px;
+}
+
+.home-hero-container::before {
+    opacity: .5;
+}
 
 /* Lifestyle page */
 #hero-lifestyle {
