@@ -72,7 +72,7 @@ body {
 
 .destination:hover {
     background-color: rgba(0, 0, 0, 0.301);
-    background-image: url('/images/location.svg');
+    background-image: url("/images/location.svg");
     background-size: 100px 100px;
     background-repeat: no-repeat;
     background-position: center;
