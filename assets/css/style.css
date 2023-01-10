@@ -417,3 +417,12 @@ body {
 p > a {
     font-weight: bold;
 }
+.border-right {
+    border-right:1px solid rgba(0, 0, 0, 0.103);
+}
+
+@media (max-width: 1199px) {
+    .border-right {
+        border-right: none;
+    }
+}
