@@ -467,6 +467,6 @@ p > a {
 
 /*Blog page*/
 .no-text-deco {
-    color: Black !important;
-    text-decoration: none !important;
+    color: Black;
+    text-decoration: none;
 }
