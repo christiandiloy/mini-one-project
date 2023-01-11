@@ -464,3 +464,9 @@ p > a {
         border-right: none;
     }
 }
+
+/*Blog page*/
+.no-text-deco {
+    color: Black;
+    text-decoration: none;
+}
