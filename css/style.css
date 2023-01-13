@@ -1,6 +1,6 @@
 :root {
     --accent-color: rgb(255, 74, 83);
-    --header-footer-bg: linear-gradient( 110.3deg,  rgb(20,30,48) 4.3%, rgba(49,55,82,1) 96.7% );
+    --navbar--bg: linear-gradient( 110.3deg,  rgb(20,30,48) 4.3%, rgba(49,55,82,1) 96.7% );
     --custom-font: 'Bakbak One', cursive;
 }
 
@@ -10,12 +10,12 @@ body {
 
 @media (max-width: 991px) {
     .offcanvas {
-        background: var(--header-footer-bg);
+        background: var(--navbar--bg);
     }
 }
 
 .custom-bg-color {
-    background: var(--header-footer-bg);
+    background: var(--navbar--bg);
 }
 
 .footer {
