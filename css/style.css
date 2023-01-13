@@ -1,6 +1,6 @@
 :root {
     --accent-color: rgb(255, 74, 83);
-    --header-footer-bg: #040E27;
+    --header-footer-bg: linear-gradient( 110.3deg,  rgb(20,30,48) 4.3%, rgba(49,55,82,1) 96.7% );
     --custom-font: 'Bakbak One', cursive;
 }
 
@@ -8,8 +8,18 @@ body {
     overflow-x: hidden !important;
 }
 
+@media (max-width: 991px) {
+    .offcanvas {
+        background: var(--header-footer-bg);
+    }
+}
+
 .custom-bg-color {
-    background-color: var(--header-footer-bg);
+    background: var(--header-footer-bg);
+}
+
+.footer {
+    background-color: rgb(20,30,48);
 }
 
 .custom-text-style-nav {
@@ -17,6 +27,7 @@ body {
     font-size: 20px;
     font-family: var(--custom-font);
 }
+
 
 .offcanvas-title {
     color: var(--accent-color);
@@ -436,8 +447,12 @@ body {
     }
 }
 /*Guide Books page*/
+.card-header {
+    background-color: #313752;
+}
+
 .btn-primary {
-    background-color: var(--header-footer-bg);
+    background-color: #313752;
 }
 
 .btn-primary:hover {
